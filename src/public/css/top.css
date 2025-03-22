@@ -44,10 +44,30 @@ li {
     list-style: none;
 }
 
+main {
+    background-color: #E6E2D7;
+}
+
+.section {
+    padding-top: 180px;
+    writing-mode: vertical-rl;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.section-title {
+    display: flex;
+}
+
+/*-------------------------------------------
+header
+-------------------------------------------*/
+
 header{
     writing-mode: vertical-rl;
     text-orientation: upright;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: url(../images/mainvisual-pc.jpg);
     background-size: cover;
@@ -93,21 +113,9 @@ header{
     padding: 30px 18px;
 }
 
-main{
-    background-color: #E6E2D7;
-}
-
-.section{
-    padding-top: 180px;
-    writing-mode: vertical-rl;
-    width: 100%;
-    max-width: 1024px;
-    margin: 0 auto;
-}
-
-.section-title{
-    display: flex;
-}
+/*-------------------------------------------
+news
+-------------------------------------------*/
 
 .news__title{
     flex-direction: column;
@@ -145,6 +153,10 @@ main{
     margin-left: 5px;
 }
 
+/*-------------------------------------------
+product
+-------------------------------------------*/
+
 .product{
     padding-bottom: 20px;
 }
@@ -168,10 +180,17 @@ main{
 
 .product__text {
     writing-mode: horizontal-tb;
-    background-color: rgba(249, 233, 6, 0.6);
     padding: 50px 115px;
     position: absolute;
     bottom: -20px;
+}
+
+.yellow{
+    background-color: rgba(249, 233, 6, 0.6);
+}
+
+.brown {
+    background-color: rgba(149, 42, 38, 0.6);
 }
 
 .product .product__text{
@@ -200,15 +219,22 @@ main{
     margin-right: 20px;
 }
 
+/*-------------------------------------------
+map
+-------------------------------------------*/
+
 .map{
     padding-bottom: 90px;
-    background-color: ;
 }
 
 .map iframe{
     width: 100%;
     height: 450px;
 }
+
+/*-------------------------------------------
+footer
+-------------------------------------------*/
 
 footer{
     width: 100%;

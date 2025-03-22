@@ -1,0 +1,96 @@
+@media screen and (max-width: 768px) {
+
+    /*-------------------------------------------
+        共通
+    -------------------------------------------*/
+
+    .section {
+            padding: 0;
+        }
+
+    /*-------------------------------------------
+    header
+    -------------------------------------------*/
+
+    header{
+        background-image: url(../images/mainvisual-sp.jpg);
+        padding: 20px;
+    }
+
+    /*-------------------------------------------
+    news
+    -------------------------------------------*/
+
+    .news{
+        padding: 80px 20px;
+    }
+
+    .news__title{
+        margin-left: 30px;
+    }
+
+    .news__list-item{
+        padding: 15px 12px;
+    }
+
+    .news__list-item:nth-child(n+4) {
+        display: none;
+    }
+
+    .news__list-item:nth-child(n+3) {
+        border-left: #000 1px solid;
+    }
+
+    /*-------------------------------------------
+    product
+    -------------------------------------------*/
+
+    .product__image img{
+        max-width: 301px;
+    }
+
+    .product__image{
+        margin-top: 70px;
+    }
+
+    .product__text{
+        padding: 30px 32px;
+    }
+
+    .en-title{
+        display: none;
+    }
+
+    .product .product__title {
+        margin-left: 10px;
+    }
+
+    .product--reverse .product__title {
+        margin-right: 10px;
+    }
+
+    .product,
+    .product--reverse {
+        padding: 0 20px 100px;
+    }
+
+    /*-------------------------------------------
+    map
+    -------------------------------------------*/
+
+    .map {
+        padding-bottom: 5px;
+    }
+
+    /*-------------------------------------------
+    footer
+    -------------------------------------------*/
+
+    footer{
+        padding: 40px 20px;
+    }
+
+    .footer__info{
+        margin: 0 25px;
+    }
+}

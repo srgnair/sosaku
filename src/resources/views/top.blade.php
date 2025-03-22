@@ -15,11 +15,11 @@
 <header>
     <div class="header__top">
         <h1 class="header__title"><a href="#"><img src="{{ asset('images/logo.svg') }}" alt="創作"></a></h1>
-        <ul class="header__menu">
+        <nav class="header__menu">
             <li><a href="#news">お知らせ</a></li>
             <li><a href="#product">商品のご紹介</a></li>
             <li><a href="#map">店舗のご案内</a></li>
-        </ul>
+        </nav>
     </div>
     <div class="header__link-container">
         <div class="header__online-link">
@@ -65,7 +65,7 @@
             <div class="product__image">
                 <img src="{{ asset('images/products1.jpg') }}"  alt="">
             </div>
-            <div class="product__text">
+            <div class="product__text yellow">
                 <p>テキストテキスト</p>
                 <p>テキストテキスト</p>
             </div>
@@ -80,7 +80,7 @@
             <div class="product__image">
                 <img src="{{ asset('images/products2.jpg') }}"  alt="">
             </div>
-            <div class="product__text">
+            <div class="product__text brown">
                 <p>テキストテキスト</p>
                 <p>テキストテキスト</p>
             </div>

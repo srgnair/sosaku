@@ -29,6 +29,10 @@
         margin-left: 30px;
     }
 
+    .news__list{
+        margin-top: 20px;
+    }
+
     .news__list-item{
         padding: 15px 12px;
     }
@@ -45,8 +49,17 @@
     product
     -------------------------------------------*/
 
+    .product,
+    .product--reverse{
+        width: 100%;
+    }
+
+    .product__container{
+        width: 90%;
+    }
+
     .product__image img{
-        max-width: 301px;
+        max-width: 350px;
     }
 
     .product__image{
@@ -57,7 +70,12 @@
         padding: 30px 32px;
     }
 
-    .en-title{
+    .news .ja-title{
+        font-size: 1.75rem;
+    }
+
+    .product .en-title,
+    .product--reverse .en-title{
         display: none;
     }
 
@@ -72,6 +90,10 @@
     .product,
     .product--reverse {
         padding: 0 20px 100px;
+    }
+
+    .product .ja-title{
+        font-size: 1.5rem;
     }
 
     /*-------------------------------------------
@@ -92,5 +114,13 @@
 
     .footer__info{
         margin: 0 25px;
+    }
+
+    .footer__right{
+        font-size: 0.875rem;
+    }
+
+    .footer__right li{
+        margin-left: 10px;
     }
 }

@@ -37,7 +37,7 @@ img {
     width: 100%;
     display: block;
     object-fit: cover;
-    object-position: center center;
+    object-position: center top;
 }
 
 li {
@@ -60,6 +60,23 @@ main {
     display: flex;
 }
 
+.en-title,
+.ja-title {
+    display: inline-block;
+}
+
+.en-title {
+    font-size: 0.875rem;
+    align-items: center;
+}
+
+.ja-title {
+    display: block;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    margin-bottom: 18px;
+}
+
 /*-------------------------------------------
 header
 -------------------------------------------*/
@@ -71,7 +88,7 @@ header{
     height: 100vh;
     background-image: url(../images/mainvisual-pc.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -126,18 +143,17 @@ news
     margin-left: 15px;
 }
 
-.en-title,
-.ja-title{
-    display: inline-block;
+.news .ja-title{
+    font-size: 2.25rem;
 }
 
-.en-title{
-    font-size: 0.875rem;
-    align-items: center;
+.product .ja-title,
+.product--reverse .ja-title{
+    font-size: 2rem;;
 }
 
-.ja-title{
-    font-size: 2rem;
+.news__list{
+    margin-top: 80px;
 }
 
 .news__list-item{
@@ -153,6 +169,10 @@ news
     margin-left: 5px;
 }
 
+.news__list-item time{
+    font-size: 0.75rem;
+}
+
 /*-------------------------------------------
 product
 -------------------------------------------*/
@@ -166,12 +186,12 @@ product
     align-items: center;
 }
 
-.ja-title{
-    margin-bottom: 18px;
-}
-
 .product__container{
     position: relative;
+}
+
+.product__image{
+    margin-top: 100px;
 }
 
 .product__image img{
@@ -179,6 +199,7 @@ product
 }
 
 .product__text {
+    display: block;
     writing-mode: horizontal-tb;
     padding: 50px 115px;
     position: absolute;
@@ -224,7 +245,7 @@ map
 -------------------------------------------*/
 
 .map{
-    padding-bottom: 90px;
+    padding-bottom: 5px;
 }
 
 .map iframe{
@@ -261,8 +282,21 @@ footer{
     width: 40px;
 }
 
+.footer__info,
+.footer__left{
+    font-size: 0.875rem
+}
+
+.footer__copy{
+    font-size: 0.625rem;
+}
+
 .footer__info{
     margin: 0 60px;
+}
+
+.footer__info p:first-of-type{
+    padding-left: 14px;
 }
 
 .footer__right li{

@@ -9,7 +9,8 @@ HTML/CSSの学習を目的として、デザインカンプを元にコーディ
 
 ![Image](https://github.com/user-attachments/assets/5ecf4426-fbd7-4bf2-b955-5d0552576ad9)
 
-<img src="https://github.com/user-attachments/assets/908f752a-a667-4655-b991-e8817a2743cf" width="350px">
+- レスポンシブ版　修正中です。
+<img src="" width="350px">
 
 ## 使用技術
 

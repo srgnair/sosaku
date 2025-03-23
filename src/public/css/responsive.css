@@ -55,19 +55,25 @@
     }
 
     .product__container{
-        width: 90%;
+        width: 80%;
     }
 
     .product__image img{
-        max-width: 350px;
+        max-width: 100%;
+        height: 200px;
     }
 
     .product__image{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
         margin-top: 70px;
     }
 
     .product__text{
         padding: 30px 32px;
+        bottom: -60px;
     }
 
     .news .ja-title{
@@ -92,7 +98,8 @@
         padding: 0 20px 100px;
     }
 
-    .product .ja-title{
+    .product .ja-title,
+    .product--reverse .ja-title{
         font-size: 1.5rem;
     }
 
